@@ -62,7 +62,7 @@ src/
 
 ```bash
 git clone https://github.com/your-username/lead-analytics-dashboard.git
-cd lead-analytics-dashboard
+cd kaizendashboard
 ```
 
 ### 2. 📦 Install Dependencies
