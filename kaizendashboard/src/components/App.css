@@ -1,0 +1,130 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  background-color: #f6f9fc;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f6f9fc;
+}
+
+
+/* Login/Signup Container */
+.centered-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #f6f9fc;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Headings */
+h2 {
+  color: #333;
+  margin: 0;
+}
+
+/* Inputs */
+input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Logout */
+.logout-btn {
+  background-color: #dc3545;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Charts Section */
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+/* Chart or Table Cards */
+.chart-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 30%;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Filters + Clear Button Row */
+.filters-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
