@@ -4,6 +4,7 @@
 A real-time lead analytics dashboard built with **React** and **Firebase**, featuring user authentication, filtering, and visualizations for lead tracking.
 
 ---
+## 🚀 Netlify link: https://lead-analytics-dashboard.netlify.app/
 
 ## 🚀 Features
 
