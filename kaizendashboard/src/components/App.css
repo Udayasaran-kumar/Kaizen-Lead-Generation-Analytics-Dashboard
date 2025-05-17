@@ -38,6 +38,9 @@ body, html {
   background-color: #f6f9fc;
   display: flex;
   flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
 }
 
 /* Header */
@@ -127,4 +130,7 @@ a:hover {
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
+}
+.filters>input{
+ width: 50%;
 }
